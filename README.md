@@ -108,3 +108,11 @@ src/
 4. Like機能とローカルストレージ管理
 
 詳細は `.kiro/specs/ichibetsu-local-guide/tasks.md` を参照してください。
+
+## Git Flow
+
+このプロジェクトでは以下のブランチ戦略を採用しています：
+
+- `main`: 本番リリース用ブランチ
+- `develop`: 開発統合ブランチ
+- `feature/*`: 各タスク用ブランチ
