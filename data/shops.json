@@ -1,0 +1,82 @@
+[
+  {
+    "id": "shop-001",
+    "name": "珈琲工房 和",
+    "address": "東京都渋谷区神宮前3-15-7",
+    "genre": "カフェ",
+    "imageUrl": "/images/shops/coffee-wa.jpg",
+    "story": "自家焙煎の香り高いコーヒーと、手作りの和菓子が楽しめる隠れ家的なカフェです。"
+  },
+  {
+    "id": "shop-002",
+    "name": "手打ち蕎麦 山里",
+    "address": "東京都新宿区神楽坂2-8-15",
+    "genre": "蕎麦屋",
+    "imageUrl": "/images/shops/soba-yamazato.jpg",
+    "story": "毎朝打つ十割蕎麦と、季節の山菜が味わえる老舗の蕎麦屋。心温まる一杯をどうぞ。"
+  },
+  {
+    "id": "shop-003",
+    "name": "雑貨屋 つむぎ",
+    "address": "東京都世田谷区三軒茶屋1-32-6",
+    "genre": "雑貨店",
+    "imageUrl": "/images/shops/zakka-tsumugi.jpg",
+    "story": "作家さんの手作り雑貨や、日常を彩る小さな宝物が見つかるお店です。"
+  },
+  {
+    "id": "shop-004",
+    "name": "炭火焼鳥 鳥心",
+    "address": "東京都中野区中野5-52-15",
+    "genre": "焼鳥屋",
+    "imageUrl": "/images/shops/yakitori-torishin.jpg",
+    "story": "備長炭で丁寧に焼き上げる焼鳥と、こだわりの日本酒が自慢の大衆酒場です。"
+  },
+  {
+    "id": "shop-005",
+    "name": "パン工房 麦の香",
+    "address": "東京都杉並区高円寺北2-18-7",
+    "genre": "パン屋",
+    "imageUrl": "/images/shops/bakery-mugi.jpg",
+    "story": "国産小麦と天然酵母で作る、もちもち食感のパンが人気。朝焼きたてをお届けします。"
+  },
+  {
+    "id": "shop-006",
+    "name": "古本カフェ 栞",
+    "address": "東京都文京区本郷3-28-11",
+    "genre": "ブックカフェ",
+    "imageUrl": "/images/shops/book-cafe-shiori.jpg",
+    "story": "古書に囲まれながら、静かな時間を過ごせるブックカフェ。運命の一冊に出会えるかも。"
+  },
+  {
+    "id": "shop-007",
+    "name": "寿司処 海風",
+    "address": "東京都港区築地4-12-3",
+    "genre": "寿司屋",
+    "imageUrl": "/images/shops/sushi-umikaze.jpg",
+    "story": "築地直送の新鮮なネタと、職人の技が光る江戸前寿司。カウンター越しの会話も楽しみの一つ。"
+  },
+  {
+    "id": "shop-008",
+    "name": "花屋 四季",
+    "address": "東京都目黒区自由が丘1-25-8",
+    "genre": "花屋",
+    "imageUrl": "/images/shops/flower-shiki.jpg",
+    "story": "季節の花々で日常に彩りを。心を込めたアレンジメントで、特別な日を演出します。"
+  },
+  {
+    "id": "shop-009",
+    "name": "ラーメン 麺道",
+    "address": "東京都豊島区池袋2-15-9",
+    "genre": "ラーメン店",
+    "imageUrl": "/images/shops/ramen-mendo.jpg",
+    "story": "豚骨と鶏ガラを18時間煮込んだ濃厚スープと、自家製麺の絶妙なハーモニー。"
+  },
+  {
+    "id": "shop-010",
+    "name": "和菓子処 桜月",
+    "address": "東京都台東区浅草2-7-13",
+    "genre": "和菓子店",
+    "imageUrl": "/images/shops/wagashi-ogetsu.jpg",
+    "story": "伝統の技法で作る季節の和菓子。上品な甘さと美しい見た目で、心も満たされます。"
+  }
+]
