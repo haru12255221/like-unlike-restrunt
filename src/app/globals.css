@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 和風デザインシステムのカスタムCSS */
+
+/* カードスタック効果 */
+.card-stack {
+  position: relative;
+}
+
+.card-stack .card:nth-child(1) {
+  z-index: 3;
+  transform: scale(1) translateY(0);
+}
+
+.card-stack .card:nth-child(2) {
+  z-index: 2;
+  transform: scale(0.95) translateY(8px);
+  opacity: 0.8;
+}
+
+.card-stack .card:nth-child(3) {
+  z-index: 1;
+  transform: scale(0.9) translateY(16px);
+  opacity: 0.6;
+}
+
+/* Framer Motionと組み合わせる場合の最適化 */
+.swipe-card {
+  will-change: transform;
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* 基本的なスタイル */
+@layer base {
+  html {
+    font-family: 'Hiragino Sans', 'Yu Gothic Medium', 'Meiryo', 'Noto Sans JP', sans-serif;
+  }
+}
+
+/* コンポーネントスタイル */
+@layer components {
+  .btn-primary {
+    @apply bg-brand-primary text-white px-6 py-3 rounded-lg shadow-sm hover:bg-brand-secondary hover:shadow-md hover:-translate-y-0.5 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-primary;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent text-brand-primary border border-brand-primary px-6 py-3 rounded-lg hover:bg-brand-primary hover:text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-primary;
+  }
+  
+  .card-swipe {
+    @apply w-75 h-96 bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300;
+  }
+  
+  .card-list {
+    @apply bg-white rounded-2xl overflow-hidden shadow-card p-4 mb-4 hover:shadow-card-hover hover:-translate-y-0.5 transition-all duration-300;
+  }
+}
