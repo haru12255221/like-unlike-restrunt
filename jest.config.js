@@ -13,6 +13,17 @@ const customJestConfig = {
     '^@/(.*)$': '<rootDir>/src/$1',
   },
   testEnvironment: 'jest-environment-jsdom',
+  // NextAuth.js v5のESモジュール対応
+  transformIgnorePatterns: [
+    'node_modules/(?!(next-auth|@auth/core)/)',
+  ],
+  // ESモジュールのサポート
+  extensionsToTreatAsEsm: ['.ts', '.tsx'],
+  globals: {
+    'ts-jest': {
+      useESM: true,
+    },
+  },
 }
 
 // createJestConfig is exported this way to ensure that next/jest can load the Next.js config which is async

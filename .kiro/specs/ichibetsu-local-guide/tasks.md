@@ -37,8 +37,8 @@
     - モバイルファーストデザインの適用
     - _要件: 3.1_
 
-- [ ] 4. 認証機能の実装（TDD）
-  - [ ] 4.1 NextAuth.js設定とGoogle認証
+- [-] 4. 認証機能の実装（TDD）
+  - [x] 4.1 NextAuth.js設定とGoogle認証
     - 認証フローのテストケース作成
     - NextAuth.js設定とGoogle Provider設定
     - ログイン/ログアウト機能の実装
